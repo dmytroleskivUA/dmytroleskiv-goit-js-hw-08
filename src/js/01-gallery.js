@@ -15,7 +15,7 @@ const li = galleryItems
    </a>
 </li>`;
   })
-  .join('\n');
+  .join('');
 
 galleryList.insertAdjacentHTML('afterbegin', li);
 
